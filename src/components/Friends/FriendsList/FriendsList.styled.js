@@ -9,6 +9,6 @@ export const CardFriends = styled.section`
     rgb(0 0 0 / 12%) 0px 1px 3px 0px;
 `;
 
-export const Table = styled.ul`
+export const Item = styled.ul`
   padding: 0;
 `;

@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
-import {FriendList} from './FriendList/FriendList';
+import {FriendList} from '../FriendListItem/FriendListItem';
 
-import {CardFriends, Table} from './Friends.styled';
+import {CardFriends, Item} from './FriendsList.styled';
 
 export const Friends = ({ data }) => {
     return <CardFriends>
-        <Table>
+        <Item>
         <FriendList data={data}/>
-        </Table>
+        </Item>
     </CardFriends>
 };
 

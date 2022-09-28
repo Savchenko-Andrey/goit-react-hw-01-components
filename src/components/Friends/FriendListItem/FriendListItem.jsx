@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import {List, IsOnline, ImgUser,  Name} from './FriendList.styled'
+import {List, IsOnline, ImgUser,  Name} from './FriendListItem.styled'
 
 export const FriendList = ({data}) => {
     return data.map(item => {

@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
-import {CardList, CardSpan} from './StatisticsInfo.styled';
+import {CardLi, CardSpan} from './StatisticsInfo.styled';
 
 export const StatisticsInfo = ({data}) => {
     return data.map(item => {
      return (
-       <CardList key={item.id}>
+       <CardLi key={item.id}>
          <CardSpan>{item.label}</CardSpan>
          <CardSpan>{item.percentage} %</CardSpan>
-       </CardList>
+       </CardLi>
      );
    });
 };
